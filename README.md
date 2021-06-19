@@ -26,6 +26,7 @@ while (x <= 30) {
 
 How many languages can use this code, unaltered?
 
+* [C#](./csharp/Program.cs)
 * [Dart](./dart/example.dart)
 * [Groovy](./groovy/Example.groovy)
 * [Java](./java/Example.java)
