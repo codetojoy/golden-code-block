@@ -1,7 +1,4 @@
 
-// requires Groovy 3.x
-// ------ main
-
 // ----- common block
 var x = 1;
 while (x <= 30) {
@@ -16,8 +13,4 @@ while (x <= 30) {
     }
     x += 1;
 }
-// --------------
-
-def fizzbuzz(x) { println "$x fizzbuzz" }
-def fizz(x) { println "$x fizz" }
-def buzz(x) { println "$x buzz" }
+// -------------- 
