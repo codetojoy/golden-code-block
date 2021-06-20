@@ -9,8 +9,6 @@ void fizzbuzz() { printf("fizzbuzz\n"); }
 void emit(var x) {  printf("%d\n",x); }
  
 int main(int argc, char **argv) {
-    var i = 1;
-    var div3 = (i % 3 == 0);
 // ----- common block
 var x = 1;
 while (x <= 100) {
