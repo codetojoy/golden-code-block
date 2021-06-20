@@ -28,16 +28,4 @@ while (x <= 100) {
 
 How many languages can use this code, unaltered?
 
-* Here's a list: 
-
-<details>
-<summary>show list</summary>
-* [C#](./csharp/Program.cs)
-* [Dart](./dart/example.dart)
-* [Groovy](./groovy/Example.groovy)
-* [Java](./java/Example.java)
-* [Javascript](./javascript/example.js)
-* [Kotlin](./kotlin/Example.kt)
-* [Scala](./scala/Example.scala)
-* [Typescript](./typescript/example.ts)
-</details>
+* Here's a [list](./list.md)
