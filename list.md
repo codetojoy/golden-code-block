@@ -15,3 +15,4 @@ With cheats, for the [puzzle crowd](https://codegolf.stackexchange.com/):
 - [C](./c/example.c)
     - obligatory preprocessor kludge
     - [C++](./cpp/example.cpp) (trivial)
+    - [Objective-C](./objective-c/main.m) (trivial)
