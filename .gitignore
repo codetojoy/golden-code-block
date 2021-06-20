@@ -4,3 +4,4 @@
 typescript/*.js
 **/bin
 **/obj
+**/a.out

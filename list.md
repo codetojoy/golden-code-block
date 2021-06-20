@@ -1,5 +1,7 @@
 Here's a list:
 
+- [C](./c/example.c)
+    - obligatory preprocessor cheat
 - [C#](./csharp/Program.cs)
 - [Dart](./dart/example.dart)
 - [Groovy](./groovy/Example.groovy) (v 3+)
