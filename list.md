@@ -1,7 +1,5 @@
 Here's a list:
 
-- [C](./c/example.c)
-    - obligatory preprocessor cheat
 - [C#](./csharp/Program.cs)
 - [Dart](./dart/example.dart)
 - [Groovy](./groovy/Example.groovy) (v 3+)
@@ -10,3 +8,9 @@ Here's a list:
   - [Typescript](./typescript/example.ts) (trivial)
 - [Kotlin](./kotlin/Example.kt)
 - [Scala](./scala/Example.scala)
+
+With cheats, for the [puzzle crowd](https://codegolf.stackexchange.com/):
+
+- [C](./c/example.c)
+    - obligatory preprocessor kludge
+    - [C++](./cpp/example.cpp) (trivial)
