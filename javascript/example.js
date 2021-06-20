@@ -1,28 +1,34 @@
-function item(x, state) {
-  return `<p>${x} ${state}<p>`;
+function item(state) {
+  let s = `<p>${state}<p>`;
+  document.getElementById("result").innerHTML += s;
 }
-function fizz(x) {
-  document.getElementById("result").innerHTML += item(x, "fizz");
+function fizz() {
+  item("fizz");
 }
-function buzz(x) {
-  document.getElementById("result").innerHTML += item(x, "buzz");
+function buzz() {
+  item("buzz");
 }
-function fizzbuzz(x) {
-  document.getElementById("result").innerHTML += item(x, "fizzbuzz");
+function fizzbuzz() {
+  item("fizzbuzz");
+}
+function emit(x) {
+  item(x);
 }
 
 function example() {
   // ----- common block
   var x = 1;
-  while (x <= 30) {
+  while (x <= 100) {
     var div3 = x % 3 == 0;
     var div5 = x % 5 == 0;
     if (div3 && div5) {
-      fizzbuzz(x);
+      fizzbuzz();
     } else if (div3) {
-      fizz(x);
+      fizz();
     } else if (div5) {
-      buzz(x);
+      buzz();
+    } else {
+      emit(x);
     }
     x += 1;
   }
