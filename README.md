@@ -34,7 +34,7 @@ How many languages can use this code, unaltered?
 
 <details>
 <summary>click</summary>
-<p>Congrats! You do you. This is just about the <pre>var</pre> keyword.</p>
+<p>Congrats! You do you. This is just about the `var` keyword.</p>
 <p>Though a secondary angle to this project is to see how many people comment on FizzBuzz.</p>
 <p>I had considered putting a bug in the code block, just to break the Internet.</p>
 </details>
