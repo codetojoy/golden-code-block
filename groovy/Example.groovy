@@ -4,20 +4,23 @@
 
 // ----- common block
 var x = 1;
-while (x <= 30) {
+while (x <= 100) {
     var div3 = (x % 3 == 0);
     var div5 = (x % 5 == 0);
     if (div3 && div5) {
-        fizzbuzz(x);
+        fizzbuzz();
     } else if (div3) {
-        fizz(x);
+        fizz();
     } else if (div5) {
-        buzz(x);
+        buzz();
+    } else {
+        emit(x);
     }
     x += 1;
 }
 // --------------
 
-def fizzbuzz(x) { println "$x fizzbuzz" }
-def fizz(x) { println "$x fizz" }
-def buzz(x) { println "$x buzz" }
+def fizzbuzz() { println "fizzbuzz" }
+def fizz() { println "fizz" }
+def buzz() { println "buzz" }
+def emit(x) { println x }

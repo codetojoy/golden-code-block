@@ -2,4 +2,7 @@
 
 set -e
 
-groovy Example.groovy
+groovy Example.groovy | tee tmp.log
+diff tmp.log ../resources/golden.master.out.log
+echo "diff result $?"
+
