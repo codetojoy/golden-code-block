@@ -9,15 +9,17 @@ Consider this:
 ```
 // ----- common block
 var x = 1;
-while (x <= 30) {
+while (x <= 100) {
     var div3 = (x % 3 == 0);
     var div5 = (x % 5 == 0);
     if (div3 && div5) {
-        fizzbuzz(x);
+        fizzbuzz();
     } else if (div3) {
-        fizz(x);
+        fizz();
     } else if (div5) {
-        buzz(x);
+        buzz();
+    } else {
+        emit(x);
     }
     x += 1;
 }
@@ -26,6 +28,10 @@ while (x <= 30) {
 
 How many languages can use this code, unaltered?
 
+* Here's a list: 
+
+<details>
+<summary>show list</summary>
 * [C#](./csharp/Program.cs)
 * [Dart](./dart/example.dart)
 * [Groovy](./groovy/Example.groovy)
@@ -34,3 +40,4 @@ How many languages can use this code, unaltered?
 * [Kotlin](./kotlin/Example.kt)
 * [Scala](./scala/Example.scala)
 * [Typescript](./typescript/example.ts)
+</details>
