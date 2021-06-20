@@ -29,3 +29,12 @@ while (x <= 100) {
 How many languages can use this code, unaltered?
 
 * Here's a [list](./list.md)
+
+"That's not how to write FizzBuzz..."
+
+<details>
+<summary>click</summary>
+<p>Congrats! You do you. This is just about the <pre>var</pre> keyword.</p>
+<p>Though a secondary angle to this project is to see how many people comment on FizzBuzz.</p>
+<p>I had considered putting a bug in the code block, just to break the Internet.</p>
+</details>
