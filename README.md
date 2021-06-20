@@ -26,7 +26,7 @@ while (x <= 100) {
 // -------------- 
 ```
 
-How many languages can use this code, unaltered?
+How many languages can use this code, unaltered (with surrounding context, tailored for the language)?
 
 * Here's a [list](./list.md)
 
