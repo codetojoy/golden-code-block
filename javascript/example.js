@@ -1,36 +1,30 @@
-function item(state) {
-  let s = `<p>${state}<p>`;
-  document.getElementById("result").innerHTML += s;
-}
 function fizz() {
-  item("fizz");
+  console.log(`fizz`);
 }
 function buzz() {
-  item("buzz");
+  console.log(`buzz`);
 }
 function fizzbuzz() {
-  item("fizzbuzz");
+  console.log(`fizzbuzz`);
 }
 function emit(x) {
-  item(x);
+  console.log(x);
 }
 
-function example() {
-  // ----- common block
-  var x = 1;
-  while (x <= 100) {
+// ----- common block
+var x = 1;
+while (x <= 100) {
     var div3 = x % 3 == 0;
     var div5 = x % 5 == 0;
     if (div3 && div5) {
-      fizzbuzz();
+        fizzbuzz();
     } else if (div3) {
-      fizz();
+        fizz();
     } else if (div5) {
-      buzz();
+        buzz();
     } else {
-      emit(x);
+        emit(x);
     }
     x += 1;
-  }
-  // --------------
 }
+// --------------
