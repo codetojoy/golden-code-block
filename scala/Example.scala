@@ -1,27 +1,32 @@
 
 object Example {
-    def fizz(x: Int) = {
-        println(s"$x fizz")
+    def fizz() = {
+        println("fizz")
     }
-    def buzz(x: Int) = {
-        println(s"$x buzz")
+    def buzz() = {
+        println("buzz")
     }
-    def fizzbuzz(x: Int) = {
-        println(s"$x fizzbuzz")
+    def fizzbuzz() = {
+        println("fizzbuzz")
+    }
+    def emit(x: Int) = {
+        println(s"$x")
     }
 
     def main(args: Array[String]) = {
 // ----- common block
 var x = 1;
-while (x <= 30) {
+while (x <= 100) {
     var div3 = (x % 3 == 0);
     var div5 = (x % 5 == 0);
     if (div3 && div5) {
-        fizzbuzz(x);
+        fizzbuzz();
     } else if (div3) {
-        fizz(x);
+        fizz();
     } else if (div5) {
-        buzz(x);
+        buzz();
+    } else {
+        emit(x);
     }
     x += 1;
 }
