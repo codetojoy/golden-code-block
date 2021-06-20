@@ -8,6 +8,7 @@ Here's a list:
   - [Typescript](./typescript/example.ts) (trivial)
 - [Kotlin](./kotlin/Example.kt)
 - [Scala](./scala/Example.scala)
+- [Swift](./swift/Sources/swift/main.swift)
 
 With cheats, for the [puzzle crowd](https://codegolf.stackexchange.com/):
 

@@ -1,5 +1,8 @@
+func fizz() { print("fizz") }
+func buzz() { print("buzz") }
+func fizzbuzz() { print("fizzbuzz") }
+func emit(_ x: Int) { print(x) }
 
-```
 // ----- common block
 var x = 1;
 while (x <= 100) {
@@ -17,4 +20,3 @@ while (x <= 100) {
     x += 1;
 }
 // -------------- 
-```
