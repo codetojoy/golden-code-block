@@ -28,9 +28,9 @@ while (x <= 100) {
 
 How many languages can use this code, unaltered (with surrounding context, tailored for the language)?
 
-* Here's a current [list](./list.md) with working examples. If you find more, please let me know.
+Here's a current [list](./list.md) with working examples. If you find more, please let me know.
 
-"That's not how to write FizzBuzz..."
+re: "That's not how to write FizzBuzz..."
 
 <details>
 <summary>click</summary>
