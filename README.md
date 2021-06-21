@@ -1,7 +1,7 @@
 # golden-code-block
 
 Both Java and Groovy adopted the `var` keyword in recent years, so
-I wondered if there is a "golden" code block that works across several
+I wondered if there is a "golden"/polyglot code block that works across several
 languages.
 
 Consider this:
