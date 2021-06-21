@@ -33,7 +33,7 @@ Here's a current [list](./list.md) with working examples. If you find more, plea
 re: "That's not how to write FizzBuzz..."
 
 <details>
-<summary>click</summary>
+<summary>click for response</summary>
 <p>Congrats! You do you. This is just about the `var` keyword.</p>
 <p>Though a secondary angle to this project is to see how many people comment on FizzBuzz.</p>
 <p>I had considered putting a bug in the code block, just to break the Internet.</p>
